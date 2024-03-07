@@ -1,0 +1,32 @@
+GIT config:
+
+config --global user.name "rahul-chahal"
+git config --global user.email "rahul.151897@gmail.com"
+git config --list
+
+
+start:
+
+git init
+
+Clone:
+
+git clone <repo name>
+
+git status are of 4 tyoes:
+
+untracked
+modified
+staged (means ready to commit)
+unmodified
+
+add and commit:
+
+git add <file name>
+git commmit <message>
+
+
+push:
+
+git push origin main
+
