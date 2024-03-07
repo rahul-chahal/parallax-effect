@@ -23,10 +23,28 @@ unmodified
 add and commit:
 
 git add <file name>
-git commmit <message>
+git commmit -m <message>
 
+
+
+#before push make new repo in github and instructions are there on git website such as
+git remote add origin <link>
+git branch -M main
+git push -u origin main
+
+to verify remote repo:
+git remote -v
+
+to check branch in which we are:
+
+git branch
 
 push:
 
 git push origin main
 
+
+
+WORKFLOW:
+
+CREATE >>  CLONE  >>  CHANGE >>  ADD >> COMMIT >> PUSH
